@@ -1,0 +1,74 @@
+@import url("components/photo.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	background-color: #214E34;
+	margin: none;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: bolder;
+	color: #214E34;
+}
+
+h2, h3 {
+	color: #5d3822;
+	font-family: Playfair Display, sans-serif;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #214E34;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+#form p {
+	margin-bottom: 30px;
+}
+
+#introduction {
+	padding: 20px 25px;
+}
+
+#link-club {
+	text-decoration: underline;
+	color: #214E34;
+	font-family: Helvetica;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+#avatar {
+	width: 200px;
+	border-radius: 50%;
+}
+
+#list-inline {
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.card-white {
+	background-color: #CBD4C2;
+	padding: 60px;
+	margin-top: 30px;
+	margin-right: 70px;
+	margin-left: 70px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 15%);
+	border-radius: 3px;
+	text-align: center;
+}
